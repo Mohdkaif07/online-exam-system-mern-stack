@@ -1,0 +1,328 @@
+/* 
+ body{
+    margin: 0px;
+}
+
+ 
+ #header{
+      background-color: #2e6da4dc;
+      background-color: rgba(0, 0, 0, 0.9);
+      
+      float: left;
+      height: 50px;
+      width: 100%;
+
+      position: fixed;
+      z-index: 1;
+
+  }
+
+/* --------------------------------------------------------- */
+
+   /* #headerHeadingBox{
+      background-color: rgb(12, 199, 68);
+      float: left;
+      height: 50px;
+      width: 400px;
+      color: rgba(255, 255, 255, 0.95);
+      letter-spacing: 1.6;
+      font-size: x-large;
+      margin-left:40px;
+  }
+
+
+     
+   #headerHeadingBox h3{
+     margin: 0px;
+     padding-top: 10px;
+     padding-left: 10px;
+   }
+
+       
+/* ------------------------------------------------------------------------- */
+
+
+
+    /* #div1{
+          background-color: yellow;
+          float: left;
+          height: 150px;
+          width: 1250px;
+
+          position: relative;
+          top: 55;
+          
+          margin-top: 80px;
+          margin-left: 20px;
+
+          text-align: center;
+    }
+
+
+    #div1 img{
+        height: 110px;
+        width: 150px;
+    }
+
+    #div1 span{
+      display: block;
+      font-size: x-large;
+   }
+
+
+   #div2{
+        background-color: yellow; 
+         float: left;
+          height: 300px;
+          width: 1000px;
+
+          position: relative;
+          top: 55;
+          
+          margin-top: 30px;
+          margin-left: 180px;
+
+          text-align: center;
+    }
+
+
+    .div3{
+        float: left;
+        height: 300px;
+        width: 455px;
+        margin-left: 30px;
+
+        text-align: center;
+    }
+
+    .div3 img{
+       height: 250px;
+       width: 300px;
+       margin-top: 20px;
+       border: 1px solid black;
+    }
+
+
+    .div3 span{
+       display: block;
+       font-size: x-large;
+    }
+
+
+    .div3 a{
+        color: black;
+        text-decoration: none;
+    } 
+
+    /* General Styling */
+
+/* Navbar Styling */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .navContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .navBrand h1 {
+    margin: 0;
+    font-size: 1.8em;
+  }
+  
+  .navLinks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navLink {
+    color: #fff;
+    text-decoration: none; /* No underline */
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  .navLink:hover {
+    text-decoration: underline; /* Underline on hover */
+    background-color: #575757;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none; /* No underline */
+    display: block;
+  }
+  
+  .dropdownContent a:hover {
+    text-decoration: underline; /* Underline on hover */
+    background-color: #f1f1f1;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  /* Header Styling */
+  .header {
+    background-color: #f2f2f2;
+    padding: 35px 20px 20px; /* Adjusted padding to account for navbar height */
+    text-align: center;
+    margin-top: 49px; /* Offset for fixed navbar */
+  }
+  
+  .headerContent h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+  }
+  
+  .headerContent p {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .buttonGroup {
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none; /* No underline */
+    border-radius: 5px;
+    margin: 0 10px;
+  }
+  
+  .button:hover {
+    text-decoration: underline; /* Underline on hover */
+    background-color: #0056b3;
+  }
+  
+  /* Main Content Styling */
+  .features {
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  .featureItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .featureImage {
+    width: 50%;
+    max-width: 500px;
+  }
+  
+  .featureText {
+    padding: 0 20px;
+  }
+  
+  .featureText h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .featureText p {
+    font-size: 1.2em;
+  }
+  
+  /* Feature List Styling */
+  .featureList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .featureCard {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featureCard img {
+    width: 100%;
+  }
+  
+  .featureCard h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .featureCard p {
+    padding: 0 10px 10px;
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footerLinks {
+    margin-bottom: 20px;
+  }
+  
+  .footerLinks a {
+    color: #fff;
+    text-decoration: none; /* No underline */
+    margin: 0 10px;
+  }
+  
+  .footerLinks a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .socialMedia a {
+    color: #fff;
+    margin: 0 10px;
+  }
+  
+  

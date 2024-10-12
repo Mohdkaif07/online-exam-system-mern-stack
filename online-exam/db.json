@@ -1,0 +1,486 @@
+{
+  "contacts": [
+    {
+      "name": "Farhan ",
+      "email": "farhanzeer@gmail.com",
+      "message": "hi this is a test message!",
+      "id": 1
+    },
+    {
+      "name": "Aman",
+      "email": "farhan@hi.com",
+      "message": "test message 2",
+      "id": 2
+    },
+    {
+      "name": "Farhan Nazeer",
+      "email": "arha@gah",
+      "message": "gahaa",
+      "id": 3
+    },
+    {
+      "name": "Farhan Nazeer",
+      "email": "farhanzeer@gmail.com",
+      "message": "test message",
+      "id": 4
+    },
+    {
+      "name": "farhan",
+      "email": "farhanzeer@gmail.com",
+      "message": "test 2",
+      "id": 5
+    },
+    {
+      "name": "Farhan",
+      "email": "farhanzeer@gmail.com",
+      "message": "HIIII",
+      "id": 6
+    }
+  ],
+  "admin": [
+    {
+      "admin_name": "admin",
+      "admin_password": "1234"
+    }
+  ],
+  "subject": [
+    {
+      "subject_name": "Maths",
+      "id": 1
+    },
+    {
+      "subject_name": "English",
+      "id": 2
+    },
+    {
+      "subject_name": "computer science ",
+      "id": 3
+    }
+  ],
+  "Exam": [
+    {
+      "id": 1,
+      "exam_name": "Maths",
+      "exam_desc": "This is Math Exam",
+      "exam_date": "17-9-2021 17:49:39",
+      "exam_marks": "5",
+      "exam_totalQuestion": "5",
+      "exam_passMarks": "3",
+      "exam_level": "Easy"
+    },
+    {
+      "exam_name": "English",
+      "exam_desc": "english",
+      "exam_level": "easy",
+      "exam_passMarks": "5",
+      "exam_totalQuestion": "5",
+      "exam_marks": "5",
+      "exam_date": "12-4-2023 8:45:18",
+      "id": 2
+    }
+  ],
+  "Question": [
+    {
+      "id": 1,
+      "question_name": "10-5 ?",
+      "option_one": "3",
+      "option_two": "1",
+      "option_three": "2",
+      "option_four": "5",
+      "question_answer": "5",
+      "exam_id": 1,
+      "subject_name": "Maths"
+    },
+    {
+      "id": 2,
+      "question_name": "10+5 ?",
+      "option_one": "3",
+      "option_two": "1",
+      "option_three": "4",
+      "option_four": "15",
+      "question_answer": "15",
+      "exam_id": 1,
+      "subject_name": "Maths"
+    },
+    {
+      "question_name": "10*5",
+      "option_one": "10",
+      "option_two": "5",
+      "option_three": "50",
+      "option_four": "2",
+      "question_answer": "50",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 3
+    },
+    {
+      "question_name": "110-10 ?",
+      "option_one": "110",
+      "option_two": "100",
+      "option_three": "10",
+      "option_four": "1",
+      "question_answer": "100",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 4
+    },
+    {
+      "question_name": "10/2 = ?",
+      "option_one": "1",
+      "option_two": "5",
+      "option_three": "10",
+      "option_four": "7",
+      "question_answer": "5",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 5
+    },
+    {
+      "question_name": "q1",
+      "option_one": "1",
+      "option_two": "2",
+      "option_three": "3",
+      "option_four": "4",
+      "question_answer": "1",
+      "exam_id": "2",
+      "subject_name": "english",
+      "id": 6
+    },
+    {
+      "question_name": "q2",
+      "option_one": "1",
+      "option_two": "2",
+      "option_three": "3",
+      "option_four": "4",
+      "question_answer": "1",
+      "exam_id": "2",
+      "subject_name": "english",
+      "id": 7
+    },
+    {
+      "question_name": "What is the square root of 64?",
+      "option_one": "4",
+      "option_two": "8",
+      "option_three": "16",
+      "option_four": "6",
+      "question_answer": "8",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 8
+    },
+    {
+      "question_name": "What is 9 multiplied by 7?",
+      "option_one": "56",
+      "option_two": "63",
+      "option_three": "72",
+      "option_four": "49",
+      "question_answer": "63",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 9
+    },
+    {
+      "question_name": "What is the value of pi (π) up to two decimal places?",
+      "option_one": "3.12",
+      "option_two": "3.14",
+      "option_three": "3.16",
+      "option_four": "3.18",
+      "question_answer": "3.14",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 10
+    },
+    {
+      "question_name": "What is 15% of 200?",
+      "option_one": "20",
+      "option_two": "30",
+      "option_three": "25",
+      "option_four": "15",
+      "question_answer": "30",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 11
+    },
+    {
+      "question_name": "If a triangle has angles 90°, 30°, and 60°, what type of triangle is it?",
+      "option_one": "Equilateral",
+      "option_two": "Right-angled",
+      "option_three": "Isosceles",
+      "option_four": "Scalene",
+      "question_answer": "Right-angled",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 12
+    },
+    {
+      "question_name": "What is 100 divided by 4?",
+      "option_one": "50",
+      "option_two": "20",
+      "option_three": "25",
+      "option_four": "30",
+      "question_answer": "25",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 13
+    },
+    {
+      "question_name": "What is 12 squared?",
+      "option_one": "144",
+      "option_two": "120",
+      "option_three": "150",
+      "option_four": "132",
+      "question_answer": "144",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 14
+    },
+    {
+      "question_name": "Solve: 5x = 25. What is the value of x?",
+      "option_one": "6",
+      "option_two": "5",
+      "option_three": "7",
+      "option_four": "4",
+      "question_answer": "5",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 15
+    },
+    {
+      "question_name": "What is the perimeter of a square with a side length of 8?",
+      "option_one": "16",
+      "option_two": "24",
+      "option_three": "32",
+      "option_four": "36",
+      "question_answer": "32",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 16
+    },
+    {
+      "question_name": "If the radius of a circle is 7, what is the diameter?",
+      "option_one": "7",
+      "option_two": "14",
+      "option_three": "21",
+      "option_four": "28",
+      "question_answer": "14",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 17
+    },
+    {
+      "question_name": "What is the value of 2 cubed?",
+      "option_one": "6",
+      "option_two": "8",
+      "option_three": "12",
+      "option_four": "10",
+      "question_answer": "8",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 18
+    }
+  ],
+  "Result": [
+    {
+      "id": 1,
+      "result_status": "Pass",
+      "result_score": "3",
+      "user_email": "ram@gmail.com",
+      "exam_date": "12-23-12",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5"
+    },
+    {
+      "id": 2,
+      "result_status": "Pass",
+      "result_score": "3",
+      "user_email": "ram@gmail.com",
+      "exam_date": "12-23-12",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5"
+    },
+    {
+      "id": 3,
+      "result_status": "Pass",
+      "result_score": "3",
+      "user_email": "shiv@gmail.com",
+      "exam_date": "12-23-12",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5"
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "ram@gmail.com",
+      "exam_date": "18-9-2021 20:49:39",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 4
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "vishnu@gmail.com",
+      "exam_date": "19-9-2021 15:11:27",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 5
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "agni@gmail.com",
+      "exam_date": "19-9-2021 15:20:37",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 6
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 2,
+      "user_email": "ram@gmail.com",
+      "exam_date": "12-4-2023 8:47:52",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "2",
+      "total_Question": "5",
+      "id": 7
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 2,
+      "user_email": "ram@gmail.com",
+      "exam_date": "12-4-2023 8:53:10",
+      "exam_name": "English",
+      "total_marks": "5",
+      "exam_id": "2",
+      "total_Question": "5",
+      "id": 8
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": null,
+      "exam_date": "18-9-2024 10:45:23",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 9
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "gamingstunt32@gmail.com",
+      "exam_date": "18-9-2024 16:52:16",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 10
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": null,
+      "exam_date": "24-9-2024 1:9:56",
+      "exam_name": "Maths",
+      "total_marks": "3",
+      "exam_id": "1",
+      "total_Question": "3",
+      "id": 11
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": null,
+      "exam_date": "25-9-2024 20:57:44",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 12
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": null,
+      "exam_date": "25-9-2024 21:13:20",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 13
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": null,
+      "exam_date": "25-9-2024 21:21:23",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 14
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": null,
+      "exam_date": "25-9-2024 21:23:16",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 15
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 2,
+      "user_email": null,
+      "exam_date": "26-9-2024 22:9:17",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "undefined",
+      "total_Question": "5",
+      "id": 16
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "user_name": "ram",
+      "user_email": "ram@gmail.com",
+      "user_password": "1234"
+    },
+    {
+      "id": 2,
+      "user_name": "s",
+      "user_email": "kaif@gmail.com",
+      "user_password": "1234"
+    },
+    {
+      "user_name": "Vishnu",
+      "user_email": "vishnu@gmail.com",
+      "user_password": "123",
+      "id": 3
+    },
+    {
+      "user_name": "mohd kaif",
+      "user_email": "kaif@gmail.com",
+      "user_password": "1234",
+      "id": 4
+    }
+  ]
+}
