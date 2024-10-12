@@ -22,9 +22,9 @@ app.use(express.json())
 // 'mongodb+srv://mdkaif:Kaif1234@cluster0.pwghvi0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 // mongodb+srv://mdkaif:Kaif1234@cluster0.oiyu31t.mongodb-qa.net/?retryWrites=true&w=majority&appName=Cluster0
 
-const db = ('mongodb+srv://mdkaif:Kaif1234@cluster0.pwghvi0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
+// const db = ('mongodb+srv://mdkaif:Kaif1234@cluster0.pwghvi0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 
-mongoose.connect(process.env.DB_URI|| db, {
+mongoose.connect(process.env.DB_URI, {
 	useNewUrlParser: true,
 }).then(()=>{
 	  console.log('successful');
