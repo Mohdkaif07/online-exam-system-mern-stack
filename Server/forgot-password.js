@@ -4,6 +4,7 @@ const bcrypt = require('bcrypt');
 const crypto = require('crypto'); // For generating tokens
 const User = require('./schema/user.model'); // Import your user model
 const router = express.Router();
+require('dotenv').config();
 
 router.post('/forgot-password', async (req, res) => {
   const { email } = req.body;
